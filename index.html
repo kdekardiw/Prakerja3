@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>My &mdash; Blog</title>
+
+    <script>
+    alert("Selamat Datang !!!");
+    </script>
+
+    <link rel="stylesheet" href="bootstrap-datetimepicker.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <style type="text/css"> 
+      html{
+        scroll-behavior: smooth;
+      }
+      #home{
+        background-color: none;
+      }
+      #about{
+        background-color: none;
+      }
+  body{   background:url('images/bckgrd.jpg');
+  /*background-color: #a8dba8;
+  background-size:cover;*/
+}
+.site-top {left: 0px;position: absolute;content:&#39;&#39;;display: block;width: 100%;height: 0.75em;background-image: linear-gradient(to right, #3498DB 0px, #3498DB 13%, #2ECC71 26%, #F4CB0D 39%, #F4CB0D 52%, #E73C91 65%, #9B59B6 78%, #566090 91%);background-repeat: repeat-x;opacity: 0.5;
+}
+
+.transparent{
+  background:rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height:600px;
+  padding:10px;
+  margin:0px auto;
+  color:#fff;
+  text-align:left;
+}
+.transparent2{
+  background:rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height:200px;
+  padding:10px;
+  margin:0px auto;
+  color:#fff;
+  text-align:left;
+  }
+.transparent h1{margin:0}
+  </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-light bg-light shadow p-3 mb-5 bg-body rounded">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kontak">Kontak</a>
+        </li>
+        
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+  <p><span id="tanggalwaktu"></span></p>
+</nav>
+
+<!-- menu home -->
+<div class="transparent">
+<div class="container" style="margin-top: 300px;" id="home">
+  <div class="row">
+    <div class="col-md-8">
+      <center><h1>
+        <font face="Comic Sans MS">Hello,  Welcome To My official Website</font>
+      </h1></center>
+      <p>
+       Ketika seorang programmer membuat sebuah website,
+       Maka  menyelesaikan setiap permasalahan dengan coding adalah suatu kesenangan tersendiri baginya.
+      </p>
+      <button type="button" class="btn btn-primary btn-lg">SEE MORE</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="site-top"></div>
+<!-- Menu About -->
+<div class="container border border-primary border border-2" id="about" style="margin-top: 10px; background-color: white; width: 100%">
+  <div class="row">
+    <div class="col">
+      <img src="images/res_img_1.jpg" class="img-thumbnail" alt="...">
+    </div>
+    <div class="col">
+     <center><h2 class="shadow-sm p-3 mb-5 bg-body rounded"> <font face="Comic Sans MS">About Me</font></h2></center>
+        <p> Lulusan S1 dibidang Teknik Informatika. Keterampilan yang saya kuasai adalah dapat berkomunikasi dengan baik, bekerja dalam tim maupun individu, teliti dan bertanggungjawab terhadap pekerjaan, menguasai bahasa pemrograman Website, Android, Database, serta Photoshop </p>
+        <center><button type="button" class="btn btn-outline-warning">GET IN TOUCH</button></center>
+    </div>
+  </div>
+</div>
+
+<div class="site-top"></div>
+<!-- Portfolio-->
+<div id="portfolio" style="background:rgba(0, 0, 0, 0.5); margin-right: 13px; margin-left: 13px"><br>
+  <br><center><h2 class="heading to-animate "><font color="white" face="Comic Sans MS"> My Portfolio </font></h2><hr style="color: orange; width: 100px; height:4px;"></center><br>
+<div class="container" id="portfolio" style="margin-top: 10px">
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Sistem Pendukung Keputusan Metode MFEP</h5>
+        <p class="card-text">Sistem Pendukung Keputusan Kenaikan Gaji Karyawan dengan Metode Multifactor Evaluation Process (MFEP).</p>
+          <img src="images/Capture2.jpg" class="rounded-3" style="width: 200px; height: 100px"><br>
+        <br><a href="#" class="btn btn-primary">Ceck Out</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Design Form Login</h5>
+        <p class="card-text">Design untuk form login sebuah website.</p>
+        <img src="images/Capture.jpg" class="rounded-3" style="width: 200px; height: 100px"><br>
+        <br><br>
+        <a href="#" class="btn btn-primary">Ceck Out</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Design Poster</h5>
+        <p class="card-text">Pembuatan design poster</p><br>
+        <img src="images/Capture3.jpg" class="rounded-3" style="width: 200px; height: 100px"><br>
+        <br>
+        <a href="#" class="btn btn-primary">Ceck Out</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Design Logo</h5>
+        <p class="card-text">Pembuatan desain logo</p>
+        <img src="images/Capture4.jpg" class="rounded-3" style="width: 200px; height: 150px">
+        <br>
+        <a href="#" class="btn btn-primary">Ceck Out</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div><br>
+
+
+<!-- Menu Blog -->
+<div id="blog" style="background:rgba(0, 0, 0, 0.6); margin-right: 13px; margin-left: 13px">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3 border bg-light">
+  <br><center><h2><font face="Comic Sans MS">My Blog</font></h2>
+    <hr style="color: orange; width: 100px; height:4px;"></center>
+  <center><p>As a publication media that can be said to be quite effective, because it does not need to spend a lot of money.</p></center>
+
+<div class="container px-4" style="margin-top: 10px">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="shadow-sm p-3 mb-5 bg-body rounded">
+      <div class="p-3 border bg-light border border-success">
+      <h3>Teknologi Informasi</h3>
+      <p>Menurut pendapat para ahli Teknologi Informasi adalah..</p>
+      <br>
+      <button type="button" class="btn btn-outline-primary">READ MORE</button>
+    </div>
+     </div>
+    </div>
+    <div class="col">
+      <div class="shadow-sm p-3 mb-5 bg-body rounded">
+        <div class="p-3 border bg-light border border-success">
+        <h3>Website</h3>
+        <p>
+          Website adalah kumpulan dari halaman-halaman situs yang terdapat dalam sebuah domain..
+        </p>
+        <button type="button" class="btn btn-outline-primary">READ MORE</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Menu Team -->
+<br>
+<div id="team" style="background:rgba(0, 0, 0, 0.6); margin-right: 13px; margin-left: 13px">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3 border bg-light">
+  <br><center><h2><font face="Comic Sans MS">Our Team</font></h2>
+    <hr style="color: red; width: 100px; height:4px;"></center>
+  <center><p>Introducing some of our team.</p></center>
+
+<div class="container px-4" style="margin-top: 10px">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="shadow-sm p-3 mb-5 bg-body rounded">
+      <center>
+      <h3>Back End</h3>
+      <img src="images/download.jpg" class="img-thumbnail rounded-3" style="width: 150px; height: 150px">
+      <p>Kadek Ardi</p>
+    </center>
+     </div>
+    </div>
+    <div class="col">
+      <div class="shadow-sm p-3 mb-5 bg-body rounded">
+        <center>
+      <h3>Front End</h3>
+      <img src="images/download.png" class="img-thumbnail rounded-3" style="width: 150px; height: 150px">
+      <p>Made Akep</p>
+    </center>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Kontak -->
+<br>
+<div id="kontak" style="background:rgba(0, 0, 0, 0.6); margin-right: 13px; margin-left: 13px">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3 border bg-light">
+  <br><center><h2><font face="Comic Sans MS">Contact My Address</font></h2>
+    <hr style="color: red; width: 100px; height:4px;"></center>
+  <center><p>For more information please contact me at the following address</p></center>
+
+<div class="container px-4" style="margin-top: 10px">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="">
+      <div class="col">
+            <h3>Contact Info</h3>
+            <ul class="fh5co-contact-info shadow p-3 mb-5 bg-body rounded">
+              <li>
+                Tinggal di Denpasar, Jl. Tukad Irwadi, Gg. XI, No 2
+                Denpasar Selatan, Bali
+              </li>
+              <li>+62 819-1762-8090</li>
+              <li>ikadekardiwinanda@gmail.com</li>
+              <li><a href="https://instagram.com/ardiw_8?igshid=YmMyMTA2M2Y=" target="_blank">ardiw_8</a></li>
+            </ul>
+          </div>
+
+
+
+     </div>
+    </div>
+    <div class="col">
+      <div class="">
+
+      <div class="mb-3">
+  <label for="" class="form-label "><h3>Mohon dilengkapi</h3></label>
+  <input type="name" class="form-control shadow p-3 mb-8 bg-body rounded" id="nama" placeholder="Nama">
+</div>
+<div class="mb-3">
+  <input type="email" class="form-control shadow p-3 mb-8 bg-body rounded" id="email" placeholder="name@gmail.com">
+</div>
+<div class="mb-3">
+  <input type="date" class="form-control shadow p-3 mb-8 bg-body rounded" id="tgl" placeholder="Date &amp; Time">
+</div>
+<div class="mb-3">
+  <textarea class="form-control shadow p-3 mb-8 bg-body rounded" id="pesan" rows="3" placeholder="Message"></textarea>
+</div>
+    <button type="button" class="btn btn-outline-success">SEND MESSAGE</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="fh5co-footer">
+    <div class="container">
+      <div class="row row-padded">
+        <div class="col-md-12 text-center">
+          <br>
+          <br>
+          <p class="to-animate" style="color: orange; margin-top: 15px">&copy; 2022 Denpasar Bali.
+            Designed by <a class="btn btn-outline-light" href="https://instagram.com/ardiw_8?igshid=YmMyMTA2M2Y=" target="_blank">Ardi Winanda</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="site-top"></div>
+
+
+
+<script>
+var dt = new Date();
+document.getElementById("tanggalwaktu").innerHTML = dt.toLocaleString();
+</script>
+
+<script src="js/moment.js"></script>
+  <script src="js/bootstrap-datetimepicker.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+  <script>
+    $(function () {
+         $('#date').datetimepicker();
+     });
+  </script>
+
+  </body>
+
+
+</html>
